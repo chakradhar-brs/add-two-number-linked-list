@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: url(../img/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: auto;
+    background-color: rgba(66, 66, 59, 0.384);
+    margin-top: 1em;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  #result {
+    margin-top: 30px;
+    font-weight: bold;
+  }

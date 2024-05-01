@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Two linked list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter Values For Two Linked Lists</h1>
+      <p>
+        The main function is addTwoNumbers, which takes two linked lists (l1 and
+        l2) as input and returns a new linked list that represents the sum of
+        the two input lists. It uses a dummyHead node to simplify the process of
+        creating the new linked list. The function initializes three pointers,
+        p, q, and current, to traverse the input lists and build the result
+        list. It also uses a carry variable to keep track of any overflow from
+        the addition.
+      </p>
+
+      <label for="list1">List 1: </label>
+      <input type="text" id="list1" placeholder="eg : 2,4,3" />
+
+      <label for="list2">List 2: </label>
+      <input type="text" id="list2" placeholder="eg: 6,7,8" />
+
+      <button type="button" class="btn btn-info" onclick="calculateSum()">
+        Calculate Sum
+      </button>
+      <p id="result">Result will be displayed here</p>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
